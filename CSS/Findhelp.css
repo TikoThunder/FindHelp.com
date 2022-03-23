@@ -12,6 +12,15 @@
 .px32 {
     font-size: 32px;
 }
+.px32centerborder {
+    font-size: 32px;
+    text-align: center;
+    border-bottom: 3px solid black;
+}
+.px32center {
+    font-size: 32px;
+    text-align: center;
+}
 .px48{
     font-size: 48px;
 }
@@ -34,7 +43,27 @@
     border-width: 2px;
     border-style: solid;
     margin: 20px;
-    background-image: url(file:///C:/Testing/images/water.jpg);
+    background-image: url(../images/water.jpg);
+}
+.para2 {
+    color: black;
+    font-size: 32px;
+    line-height: 24px;
+    background-color: grey;
+    padding: 20px;
+    border-color: solid black;
+    border-width: 2px;
+    border-style: solid;
+    margin: 20px;
+    background-image: url(../images/water.jpg);
+    text-align: center;
+}
+/* backgrounds */
+.backgroundimage1 {
+    background-image: url(../images/water.jpg);
+}
+.backgroundimage2 {
+    background-image: url(../images/Trees.webp);
 }
 /* images */
 .imagecenter {
@@ -45,6 +74,7 @@
 /* Border */
 .border {
     border-bottom: 3px solid black;
+    margin: 0px 0px 0px 0px;
 }
 /* Tiltes */
 .title {
@@ -84,6 +114,7 @@
 .categories {
     font-size: 32px;
     border-bottom: 3px solid black;
+    text-align: 0px 16px 0px 8px;
 }
 /* support tab*/
 .support {
